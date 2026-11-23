@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#f6f5f1" />
+    <meta name="theme-color" content="#03213d" />
     <meta name="description" content="Lewis Njuguna is a developer based in Nairobi, Kenya." />
     <title>Lewis Njuguna — Developer</title>
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
@@ -16,6 +16,7 @@
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
       <nav id="site-nav" aria-label="Main navigation">
         <a href="#about">About</a>
+        <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
       </nav>
@@ -34,14 +35,65 @@
 
       <section class="content-section" id="about">
         <p class="section-index">01 / About</p>
+        <div class="section-content about-content">
+          <div class="about-copy">
+            <h2>Curious by nature.<br />Developer by craft.</h2>
+            <p>I’m Lewis, a developer based in Nairobi, Kenya. I build web experiences across portfolios, commerce, community platforms, and useful tools.</p>
+          </div>
+          <div class="portrait-stack">
+            <img class="portrait-main" src="assets/lewis-portrait.jpg" alt="Lewis Njuguna in a studio portrait" />
+            <img class="portrait-secondary" src="assets/lewis-smiling.jpg" alt="Lewis smiling in a maroon sweatshirt" />
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section projects-section" id="projects">
+        <p class="section-index">02 / Selected projects</p>
         <div class="section-content">
-          <h2>Curious by nature.<br />Developer by craft.</h2>
-          <p>I’m Lewis, a developer based in Nairobi, Kenya. I work on web projects across personal portfolios, commerce, and interactive applications.</p>
+          <h2>Things I’ve built.</h2>
+          <div class="project-grid">
+            <a class="project-card" href="https://github.com/lewy19/lewis-portfolio" target="_blank" rel="noreferrer">
+              <span class="project-number">01</span>
+              <h3>Lewis Portfolio</h3>
+              <p>A multi-page React portfolio with project detail pages and GitHub-powered project listings.</p>
+              <span class="project-stack">JavaScript · React · Vite</span>
+            </a>
+            <a class="project-card" href="https://github.com/lewy19/Homes-with-Lewy" target="_blank" rel="noreferrer">
+              <span class="project-number">02</span>
+              <h3>Homes with Lewy</h3>
+              <p>A property website with listings, project pages, buying guides, and an owner dashboard.</p>
+              <span class="project-stack">JavaScript · React · Vite</span>
+            </a>
+            <a class="project-card" href="https://github.com/lewy19/ApprovalHub" target="_blank" rel="noreferrer">
+              <span class="project-number">03</span>
+              <h3>ApprovalHub</h3>
+              <p>A GitHub repository review workspace with approval tracking and collaborative task management.</p>
+              <span class="project-stack">TypeScript · React · Supabase</span>
+            </a>
+            <a class="project-card" href="https://github.com/lewy19/Sahihi-Cakes" target="_blank" rel="noreferrer">
+              <span class="project-number">04</span>
+              <h3>Sahihi Cakes</h3>
+              <p>A cake-ordering site with customer order requests and a private admin workflow.</p>
+              <span class="project-stack">JavaScript · React · Supabase</span>
+            </a>
+            <a class="project-card" href="https://github.com/lewy19/gamergrid-sn3" target="_blank" rel="noreferrer">
+              <span class="project-number">05</span>
+              <h3>GamerGrid</h3>
+              <p>A gaming community platform with social, marketplace, realtime, and payment services.</p>
+              <span class="project-stack">Node.js · Express · Socket.IO · Solidity</span>
+            </a>
+            <a class="project-card" href="https://github.com/lewy19/Velantra" target="_blank" rel="noreferrer">
+              <span class="project-number">06</span>
+              <h3>Velantra</h3>
+              <p>A React storefront combining shopping, editorial content, and Supabase-backed features.</p>
+              <span class="project-stack">TypeScript · React · Supabase · GSAP</span>
+            </a>
+          </div>
         </div>
       </section>
 
       <section class="content-section skills-section" id="skills">
-        <p class="section-index">02 / Skills</p>
+        <p class="section-index">03 / Skills</p>
         <div class="section-content">
           <h2>Tools I work with.</h2>
           <ul class="skill-list" aria-label="Technologies">
@@ -51,13 +103,17 @@
             <li>HTML</li>
             <li>CSS</li>
             <li>Node.js</li>
+            <li>Express</li>
+            <li>Socket.IO</li>
             <li>Supabase</li>
+            <li>Solidity</li>
+            <li>GSAP</li>
           </ul>
         </div>
       </section>
 
       <section class="content-section contact-section" id="contact">
-        <p class="section-index">03 / Contact</p>
+        <p class="section-index">04 / Contact</p>
         <div class="section-content">
           <h2>Let’s connect.</h2>
           <a class="contact-link" href="https://github.com/lewy19" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
